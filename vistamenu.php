@@ -32,7 +32,7 @@
         
             <td ><a href="index2.php"><img src='./image/cliente.jpg' ></a></td>
             <td></td>
-            <td><a><img src='./image/personal.png'></a></td>
+            <td><a  href="personal.php"><img src='./image/personal.png'></a></td>
             <td></td>
             <td><a><img src='./image/provedor.png'></a></td>
         </tr>
