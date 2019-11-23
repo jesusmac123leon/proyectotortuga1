@@ -23,7 +23,7 @@
         
         $consultaBusqueda = $_POST['valorBusqueda'];         
         $query = $conn->query("SELECT *FROM 
-		personal p
+		proveedor p
 		WHERE 
 		p.numControl LIKE '%$consultaBusqueda%' OR 
 		p.nombre LIKE '%$consultaBusqueda%'  OR 
@@ -33,7 +33,7 @@
         p.direccion LIKE '%$consultaBusqueda%'");
         mostrar($conn,$query);
     }else{
-        $query = $conn->query("SELECT *FROM personal");
+        $query = $conn->query("SELECT *FROM proveedor");
         mostrar($conn,$query);
     }
     function mostrar($conn,$query)
