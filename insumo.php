@@ -63,7 +63,7 @@
             if (textoBusqueda != "") 
             {
 
-                $.post("alumnos/listarpersonal.php", {valorBusqueda: textoBusqueda}, function(mensaje) 
+                $.post("alumnos/listarinsumo.php", {valorBusqueda: textoBusqueda}, function(mensaje) 
                 {
                     $("#cargar_personal").html(mensaje);
                 });
@@ -71,7 +71,7 @@
         }
 			$(document).ready(function() {
 
-	$("#cargar_personal").load("alumnos/listarpersonal.php");
+	$("#cargar_personal").load("alumnos/listarinsumo.php");
             
             $("#critBPer").change(function()
             {
@@ -84,7 +84,7 @@
                 if($("#critBPer").val()=="all1")
                 {
                     $("#divInfo").hide();
-                    $("#cargar_personal").load("listarpersonal.php");
+                    $("#cargar_personal").load("listarinsumo.php");
                 }
                 if($("#critBPer").val()=="bin1")
                 {
@@ -97,7 +97,7 @@
 
 $("#btnUpdAlumno").click(function() {
     $.ajax({
-        url:'registro/personal1.php',
+        url:'registro/insumo1.php',
         type:'POST',
         data:({op:2,
         numControl:$("#txtm_numControl").val(),
@@ -116,7 +116,7 @@ $("#btnUpdAlumno").click(function() {
             alert("El registro ha sido cambiado");
             $("#load_mensaje").html(datos);
             $("#salirEstudiante").show();
-            $("#le").load("alumnos/listarpersonal.php");
+            $("#le").load("alumnos/listarinsumo.php");
         }
     });
 });
@@ -127,7 +127,7 @@ if($("#Consulta").val()=="all2")
 {
     $("#fecha1").hide();
     $("#txt_buscar").hide();
-    $("#le").load("alumnos/listarpersonal.php");
+    $("#le").load("alumnos/listarinsumo.php");
 }
 if($("#Consulta").val()=="bAl")
 {
@@ -139,7 +139,7 @@ if($("#Consulta").val()=="bAl")
 
 $("#btnDelAlumno").click(function() {
     $.ajax({
-        url:'registro/personal1.php',
+        url:'registro/insumo1.php',
         type:'POST',
         data:({
             op:1,
@@ -155,17 +155,17 @@ $("#btnDelAlumno").click(function() {
             alert("El registro ha sido eliminado")
             $("#load_mensaje").html(datos);
             $("#salirEstudiante").show();
-            $("#le").load("alumnos/listarpersonal.php");
+            $("#le").load("alumnos/listarinsumo.php");
         }
     });
 });
 
 
 
-				$("#le").load("alumnos/listarpersonal.php");
+				$("#le").load("alumnos/listarinsumo.php");
 				$("#agregarEstudiante").click(function() {
 					$.ajax({	
-						url:'registro/personal1.php',
+						url:'registro/insumo1.php',
 						type:'POST',
 						data:({op:3,
 						numControl:$("#numControl").val(),
@@ -183,7 +183,7 @@ $("#btnDelAlumno").click(function() {
 						{
 							$("#load_mensaje").html(datos);
 							$("#salirEstudiante").show();
-							$("#le").load("alumnos/listarpersonal.php");
+							$("#le").load("alumnos/listarinsumo.php");
 						}
 					});
 		 		});
