@@ -214,7 +214,7 @@ $("#btnDelAlumno").click(function() {
      
     <div class="welcome">
    
-        <h1><center>Bienvenido, a consulta de personal</center></h1>
+        <h1><center>Bienvenido, a consulta de proveedores</center></h1>
         
    </div>
 

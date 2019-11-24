@@ -47,12 +47,12 @@
                 <thead>
                     <tr style="background-color: #f5f5f5">
                         <!--th>CUENTAS</th-->
-                        <th><i class="fa fa-sort-alpha-asc" style="width: 16px"></i> id_personal</th>
-                        <th><i class="fa fa-user" style="width: 16px"></i> Nombre_personal</th>
+                        <th><i class="fa fa-sort-alpha-asc" style="width: 16px"></i> id_proveedor</th>
+                        <th><i class="fa fa-user" style="width: 16px"></i> Nombre_proveedor</th>
                         <th><i class="fa fa-sitemap" style="width: 16px"></i> Edad_personal</th>
 						<th><i class="fa fa-institution" style="width: 16px"></i>Sexo</th>
                         <th><i class="fa fa-institution" style="width: 16px"></i>Telefono</th>
-                        <th><i class="fa fa-institution" style="width: 16px"></i>Direccion</th>
+                        <th><i class="fa fa-institution" style="width: 16px"></i>nombre de empresa y direccion</th>
                         <th style="text-align: center;"><i class="fa fa-edit" style="width: 16px"></i> ACCIÓN</th>
                     </tr>
                 </thead>
