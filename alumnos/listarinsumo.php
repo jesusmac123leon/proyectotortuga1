@@ -24,7 +24,7 @@
         
         $consultaBusqueda = $_POST['valorBusqueda'];         
         $query = $conn->query("SELECT *FROM 
-		alumnos p
+		insumos p
 		WHERE 
 		p.numControl LIKE '%$consultaBusqueda%' OR 
 		p.nombre LIKE '%$consultaBusqueda%'  OR 
@@ -34,7 +34,7 @@
         p.direccion LIKE '%$consultaBusqueda%'");
         mostrar($conn,$query);
     }else{
-        $query = $conn->query("SELECT *FROM alumnos");
+        $query = $conn->query("SELECT *FROM insumos");
         mostrar($conn,$query);
     }
     function mostrar($conn,$query)
