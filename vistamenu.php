@@ -34,7 +34,7 @@
             <td></td>
             <td><a  href="personal.php"><img src='./image/personal.png'></a></td>
             <td></td>
-            <td><a><img src='./image/provedor.png'></a></td>
+            <td><a href="proveedor.php"><img src='./image/provedor.png'></a></td>
         </tr>
         <tr  >
             <td>mesas</td>
