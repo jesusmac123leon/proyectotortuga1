@@ -48,12 +48,12 @@
                 <thead>
                     <tr style="background-color: #f5f5f5">
                         <!--th>CUENTAS</th-->
-                        <th><i class="fa fa-sort-alpha-asc" style="width: 16px"></i> id_cliente</th>
-                        <th><i class="fa fa-user" style="width: 16px"></i> Nombre_cliente</th>
-                        <th><i class="fa fa-sitemap" style="width: 16px"></i> Edad_cliente</th>
-						<th><i class="fa fa-institution" style="width: 16px"></i>Sexo</th>
-                        <th><i class="fa fa-institution" style="width: 16px"></i>Telefono</th>
-                        <th><i class="fa fa-institution" style="width: 16px"></i>Direccion</th>
+                        <th><i class="fa fa-sort-alpha-asc" style="width: 16px"></i> id_insumo</th>
+                        <th><i class="fa fa-user" style="width: 16px"></i> Nombre_insumo</th>
+                        <th><i class="fa fa-sitemap" style="width: 16px"></i> cantidad en kilos</th>
+						<th><i class="fa fa-institution" style="width: 16px"></i>tipo</th>
+                        <th><i class="fa fa-institution" style="width: 16px"></i>estadar de calidad</th>
+                        <th><i class="fa fa-institution" style="width: 16px"></i>descripcion</th>
                         <th style="text-align: center;"><i class="fa fa-edit" style="width: 16px"></i> ACCIÓN</th>
                     </tr>
                 </thead>

@@ -248,15 +248,18 @@ $("#btnDelAlumno").click(function() {
                                
 		<H2><FONT >Formulario1</FONT></H2>
 		
-		<P><LABEL>id_personal: <INPUT type=number id="numControl" name="numControl" title="Ingrese Numero de Control" size="2" pattern="[0-9]" maxlenght="8" required="required"></LABEL>
-		<P><LABEL>Nombre_personal:</LABEL><INPUT type=text id="nombre" name="nombre" size="21" pattern="[A-Za-z]{5,50}" title="Ingrese Nombre" maxlenght="50" required="required">
-		<P><LABEL>Edad_personal:  </LABEL><INPUT type=number id="edad" name="edad"  min=1 max=99 size="12" maxlenght="2" title="Ingrese Edad" required="required">
-		<LABEL>Sexo:  </LABEL><SELECT id="sexo" name="sexo" required="required" title="Seleccione Sexo">
-			<OPTION> Masculino
-			<OPTION> Femenino
+		<P><LABEL>id_insumo: <INPUT type=number id="numControl" name="numControl" title="Ingrese Numero de Control" size="2" pattern="[0-9]" maxlenght="8" required="required"></LABEL>
+		<P><LABEL>Nombre_insumo:</LABEL><INPUT type=text id="nombre" name="nombre" size="21" pattern="[A-Za-z]{5,50}" title="Ingrese Nombre" maxlenght="50" required="required">
+		<P><LABEL>cantidad en kilos:  </LABEL><INPUT type=number id="edad" name="edad"  min=1 max=99 size="12" maxlenght="2" title="Ingrese Edad" required="required">
+		<P><LABEL>tipo:  </LABEL><SELECT id="sexo" name="sexo" required="required" title="Seleccione Sexo">
+			<OPTION> carne
+			<OPTION> lacteos
+            <OPTION> panes
+            <OPTION> liquido
+            <OPTION> espesies
 		</SELECT>
-		<P><LABEL>Telefono: </LABEL><INPUT type=number id="telefono" name="telefono" pattern="[0-90-9]{9}" title="Ingrese Telefono" required="required">
-		<P><LABEL>Direccion: </LABEL><INPUT type=text id="direccion" name="direccion" title="Ingrese Direccion" required="required">
+		<P><LABEL>estantar de calidad </LABEL><INPUT type=number id="telefono" name="telefono" pattern="[A-Za-z]{5,50}" title="Ingrese Telefono" required="required">
+		<P><LABEL>descripcion </LABEL><INPUT type=text id="direccion" name="direccion" title="Ingrese Direccion" required="required">
         <P>
         <input type="button" value="Guardar" id="agregarEstudiante">
         <input type="button" value="Modificar" id="modAlumno">
@@ -323,7 +326,7 @@ $("#btnDelAlumno").click(function() {
 
                                     <h6>Teléfono:</h6>
                                     <div class="form-group">
-                                        <input type=number name="txtm_telefono" id="txtm_telefono" class="form-control" placeholder="Teléfono">
+                                        <input type="text" name="txtm_telefono" id="txtm_telefono" class="form-control" placeholder="Teléfono">
                                         <label id="mensaje1" style="display:none;color:red">Campo Vacio / Ingrese telefono</label>
                                     </div>
                                     <h6>Dirección:</h6>

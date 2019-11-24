@@ -49,7 +49,7 @@
             <td></td>
             <td><a><img src='./image/torta.jpg'></a></td>
             <td></td>
-            <td><a><img src='./image/insumo.png '></a></td>
+            <td><a href="insumo.php"><img src='./image/insumo.png '></a></td>
         </tr>
  
         
