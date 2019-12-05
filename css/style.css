@@ -7,10 +7,8 @@
 }
 
 body{
-    background-image: url(../image/bg2.jpeg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background:#0076ff;
+    
 }
 
 .container-form{

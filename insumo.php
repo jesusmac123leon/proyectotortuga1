@@ -215,6 +215,8 @@ $("#btnDelAlumno").click(function() {
     <div class="welcome">
    
         <h1><center>Bienvenido, a consulta de insumos</center></h1>
+        <center> <a href="vistamenu.php">regresar menu</a>
+    <P> <a href="cerrar.php">Cerrar sesion</a></center>
         
    </div>
 

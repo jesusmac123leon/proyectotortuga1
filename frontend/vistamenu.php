@@ -14,6 +14,18 @@
 
    
    <div class="welcome">
+   <div class="container-form">
+        <div class="header">
+            <div class="logo-title">
+                <img src="image/re.jpg" alt="">
+                <h2>tortugas</h2>
+            </div>
+            <div class="menu">
+                <a href="login.php"><li class="module-login active">Login</li></a>
+                <a href="register.php"><li class="module-register">Registro</li></a>
+            </div>
+        </div>
+        
       
         <h1>Bienvenido, has logrado iniciar sesion</h1>
        

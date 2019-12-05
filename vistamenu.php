@@ -30,7 +30,7 @@
         </tr>
         <tr class class="logo-title">
         
-            <td ><a href="index2.php"><img src='./image/cliente.jpg' ></a></td>
+            <td ><a href="index2.php"><img src='./image/user3.png' ></a></td>
             <td></td>
             <td><a  href="personal.php"><img src='./image/personal.png'></a></td>
             <td></td>
@@ -45,9 +45,9 @@
         </tr>
         <tr class class="logo-title">
         
-            <td ><a ><img src='./image/mesa3.png' ></a></td>
+            <td ><a ><img src='./image/mesa4.png' ></a></td>
             <td></td>
-            <td><a><img src='./image/torta.jpg'></a></td>
+            <td><a><img src='./image/menu1.png'></a></td>
             <td></td>
             <td><a href="insumo.php"><img src='./image/insumo.png '></a></td>
         </tr>

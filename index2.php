@@ -36,13 +36,16 @@
 	<!-- include semantic ui theme  -->
 	<link rel="stylesheet" href="css/themes/semantic.css">
     <script src="bostrap/js/bootstrap.min.js"></script>
+    <div class="welcome">
+   
+ 
 
     <script >
     $(document).ready( function () {
     $('tablecmp').DataTable();
-} );
+} )
     
-    </script>
+    
 
 
 		<script>
@@ -211,11 +214,14 @@ $("#btnDelAlumno").click(function() {
 		<title>Formulario</title>
 	</head>
 	<body>
+    </script>
+   
      
     <div class="welcome">
    
         <h1><center>Bienvenido, a consulta de clientes</center></h1>
-        
+        <center> <a href="vistamenu.php">regresar menu</a></center>
+   <P><center> <a href="cerrar.php">Cerrar sesion</a></center>
    </div>
 
 <div class="tab-pane fade in active" id="tab_per"><br>
