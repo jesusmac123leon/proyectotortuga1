@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="icon/style.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilom.css">
     
 </head>
 <body>
@@ -18,7 +18,7 @@
         <div class="header">
             <div class="logo-title">
                 <img src="image/re.jpg" alt="">
-                <h2>tortuga</h2>
+                <h2>Tortugas</h2>
             </div>
             <div class="menu">
                 <a href="login.php"><li class="module-login">Login</li></a>
@@ -27,7 +27,7 @@
         </div>
         
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" class="form">
-            <div class="welcome-form"><h1>Bienvenido</h1><h2>tortugas</h2></div>
+            <div class="welcome-form"><h1>Bienvenido</h1></div>
             
             <div class="user line-input">
                 <label class="lnr lnr-envelope"></label>

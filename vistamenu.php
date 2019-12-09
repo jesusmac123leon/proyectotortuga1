@@ -13,14 +13,14 @@
 
 
    
-   <div class="welcome">
-      
-        <h1>Bienvenido, has logrado iniciar sesion</h1>
-       
-   </div>
+   
    <div class="welcome" >
+   <div class="logo-title">
+   <h2>menu</h2>    
+                
+            </div>
     <table class="logo-title">
- 
+     <h1>Tortugas</h1>
         <tr  >
             <td>cliente</td>
             <td></td>
@@ -30,11 +30,11 @@
         </tr>
         <tr class class="logo-title">
         
-            <td ><a href="index2.php"><img src='./image/user3.png' ></a></td>
+            <td ><a href="index2.php"><img src='./image/icono10.png' ></a></td>
             <td></td>
-            <td><a  href="personal.php"><img src='./image/personal.png'></a></td>
+            <td><a  href="personal.php"><img src='./image/icono2.png'></a></td>
             <td></td>
-            <td><a href="proveedor.php"><img src='./image/provedor.png'></a></td>
+            <td><a href="proveedor.php"><img src='./image/icono3.png'></a></td>
         </tr>
         <tr  >
             <td>mesas</td>
@@ -45,17 +45,17 @@
         </tr>
         <tr class class="logo-title">
         
-            <td ><a ><img src='./image/mesa4.png' ></a></td>
+            <td ><a ><img src='./image/icono5.png' ></a></td>
             <td></td>
-            <td><a><img src='./image/menu1.png'></a></td>
+            <td><a><img src='./image/icono4.png'></a></td>
             <td></td>
-            <td><a href="insumo.php"><img src='./image/insumo.png '></a></td>
+            <td><a href="insumo.php"><img src='./image/icono6.png '></a></td>
         </tr>
  
         
  
     </table>
-    <div class="welcome">
+   
     
     <form  name="enviar_archivo_frm" method="post" action="subir-archivo.php" enctype="multipart/form-data">
 		<input type="file" name="archivo_fls" />
@@ -63,6 +63,8 @@
 	</form>
   
    <a href="cerrar.php">Cerrar sesion</a>
+  
+   
 </div>
 </div>
 </body>
