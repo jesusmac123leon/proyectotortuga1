@@ -47,7 +47,7 @@
         
             <td ><a href="mesa.php"><img src='./image/icono5.png' ></a></td>
             <td></td>
-            <td><a href="./tortas1/index.php"><img src='./image/icono4.png'></a></td>
+            <td><a href="./tortas1/index1.php"><img src='./image/icono4.png'></a></td>
             <td></td>
             <td><a href="insumo.php"><img src='./image/icono6.png '></a></td>
         </tr>
