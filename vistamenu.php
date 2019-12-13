@@ -45,7 +45,7 @@
         </tr>
         <tr class class="logo-title">
         
-            <td ><a ><img src='./image/icono5.png' ></a></td>
+            <td ><a href="mesa.php"><img src='./image/icono5.png' ></a></td>
             <td></td>
             <td><a href="./tortas1/index.php"><img src='./image/icono4.png'></a></td>
             <td></td>
