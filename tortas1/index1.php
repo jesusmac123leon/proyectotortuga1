@@ -62,13 +62,10 @@
   </tr>
 </div>
 </table>
-<div class="welcome">
-   
-  <center>
-  <a href="../vistamenu.php">regresar menu</a>
-  <P> <a href="../cerrar.php">Cerrar sesion</a>
-      </center>
- </div>
+<div class="form button">
+   <form method="get" action="../vistamenu.php"><button type="submit">regresar menu </button></form>
+   <form method="get" action="../cerrar.php"><button type="submit">Cerrar sesion</button></form>
+      </div>
 </div>
 
 
