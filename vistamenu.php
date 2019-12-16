@@ -62,10 +62,12 @@
 <input type="submit" name="subir_btn" value="Subir Archivo" />
 	</form>
   
-   <a href="cerrar.php">Cerrar sesion</a>
   
    
 </div>
+<div class="form button">
+  <form method="get" action="cerrar.php"><button type="submit">Cerrar sesion</button></form>
+      </div>
 </div>
 </body>
 </html>
